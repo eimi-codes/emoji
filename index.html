@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎨 Emoji Gallery</h1>
+            <p>Browse and download custom emojis for Slack, Discord, and more!</p>
+        </header>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search emojis by name...">
+        </div>
+
+        <div id="emojiCount" class="emoji-count"></div>
+        
+        <div id="emojiGallery" class="emoji-gallery">
+            <div class="no-emojis">
+                <p>No emojis found yet. Add some emoji images to the <code>emojis/</code> folder!</p>
+                <p>Supported formats: PNG, GIF, JPG, JPEG, WEBP, SVG</p>
+            </div>
+        </div>
+        
+        <footer>
+            <p>💡 Tip: Click on any emoji to copy its filename to clipboard</p>
+            <p><a href="https://github.com/eimi-codes/emoji">View on GitHub</a></p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
